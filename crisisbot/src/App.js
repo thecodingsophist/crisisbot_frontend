@@ -55,9 +55,8 @@ export class MapContainer extends Component {
               zoom={14}
               style={mapStyles}
             >
-                for (var i = 0; i < items.length; i++) {
-                <Marker position={{lat: {item[i].latitude}, lng: {item[i].longitude}}} />
-                }
+
+                <Marker lat={37.7596} lng={122.4269}/>
 
             </Map>
           // <ul>
